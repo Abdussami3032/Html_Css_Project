@@ -1,0 +1,447 @@
+body{background-color: black;
+}
+@media screen and (max-width: 200px),screen and (max-height: 200px){}
+.d-flex2{
+  height: 3em;
+  width: 100%;
+}
+.navbar{
+   background:lightgrey;
+   height: 5.5em;
+   width: 100;
+   margin-top: -0.50em;
+}
+input[type=search] {
+	background: #555 ;
+	border: solid 1px #ccc;
+   width: 55px;
+   margin-left: 20em;
+}
+input[type=search]:focus {
+	width: 300px;
+	background-color: #ccc;
+	border-color: #333;
+	border: solid 1px #fff;
+}  
+.img1{
+ margin-left: 3em;
+}
+.img2{
+   margin-left: 3em;
+}
+.img3{
+  
+   margin-left: 3em;
+}
+.img4{
+   margin-left: 3em;
+}
+.img5{
+   margin-left: 3em;
+}
+.img6{
+   margin-left: 3em;
+}
+.d-flex{ background:transparent;
+   height: 5em;
+   width: 100%;
+  position: sticky;
+}
+.home-link{
+   margin-top: 0.7em;
+   margin-left: 8em;
+   
+}
+.contact-link{
+   margin-top: 0.7em;
+   margin-left: 8em;
+}
+.about-link{
+  margin-top: 0.7em;
+   margin-left: 8em;
+}
+.dropbtn {
+background-color:transparent;
+color: black;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+margin-left: 8em;
+margin-top: -0.3em;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+background-color: lightgray;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+overflow: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+
+#bgimg{
+background-image: url(images/AllSportsBanner.jpg);
+width: 100%;
+height: 30em;
+
+}
+.card {
+    border: none;
+  }
+  img,
+  .card-img-top {
+    border-radius: 0em;
+  }
+  
+  @media (min-width: 576px) {
+    .card-columns {
+      column-count: 2;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card-columns {
+      column-count: 3;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .card-columns {
+      column-count: 4;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .card-columns {
+      column-count: 5;
+    }
+  }
+  .container2 {
+    margin-top: 60em;
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    top: 60px;
+    left: calc(50% - 300px);
+    display: flex;
+  }
+  
+  .card {
+    display: flex;
+    height: 500px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: -1rem 0 3rem #000000;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  .card:not(:first-child) {
+      margin-left: -50px;
+  }
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+  }
+  
+  .title {
+    color: black;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+  .card:hover .filledbar {
+    width: 120px;
+    transition: 0.4s ease-out;
+  }
+  .stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+  }
+  .card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+  }  
+.img7{
+    height: 400px;
+    width: 200px;
+    align-content: center;
+}
+.img8{
+    height: 400px;
+    width: 200px;
+    align-content: center;
+}
+.img9{
+    height: 400px;
+    width: 200px;
+    align-content: center;
+}
+.img10{
+    height: 400px;
+    width: 200px;
+    align-content: center;
+}
+.img11{
+ margin-top: auto;
+ margin-left: 30em ;
+ 
+}
+#bgimg3{
+  overflow: hidden;
+}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+background-color: #717171;
+}
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@media only screen and (max-width: 200px) {
+.prev, .next,.text {font-size: 11px}
+}
+.box {
+  margin: auto
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 66px
+}
+
+.sub-heading {
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 8px 0 8px 0;
+  margin-top: 20px;
+  margin-bottom: 35px
+}
+
+.card2 {
+  padding: 8%;
+  padding-bottom: 30px;
+  padding-top: 35px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  background-color: #ffffff;
+  border-radius: 0
+}
+
+textarea[name="message"] {
+  resize: none
+}
+
+#e-mail {
+  height: 45px
+}
+
+#message {
+  height: 120px
+}
+
+input.input-box,
+textarea.input-box {
+  background-color: #E0E0E0;
+  border: #616161;
+  color: #000000;
+  font-size: 15px;
+  padding: 15px auto 15px auto !important;
+  height: 50px !important
+}
+
+input.input-box:focus,
+textarea.input-box:focus {
+  background-color: #212121;
+  color: #ffffff
+}
+
+.rm-border:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none
+}
+
+form .form-control::-webkit-input-placeholder {
+  color: #9E9E9E
+}
+
+::-moz-placeholder {
+  color: #9E9E9E !important
+}
+
+input.btn-black {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  height: 50px
+}
+
+.thanks {
+  color: #000000 !important;
+  text-align: center
+}
+
+.thanks:hover {
+  color: 00000 !important;
+  text-decoration: underline
+}
+
+.conditions {
+  font-size: 12px;
+  color: #BDBDBD;
+  text-align: center
+}
+.context-dark, .bg-gray-dark, .bg-primary {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+  color: #ffffff;
+}
+.nav-list li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+  margin-left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 23px;
+  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+  content: "\f14f";
+  font: 400 21px/1 "Material Design Icons";
+  color: #4d6de6;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: -28px;
+  margin-right: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .22s ease;
+}

@@ -1,0 +1,238 @@
+body{background-color: black;}
+@media screen and (max-width: 200px),screen and (max-height: 200px){}
+
+
+.navbar{
+   background:lightgrey;
+   height: 5.5em;
+   width: 100;
+}
+.d-flex2{
+   height: 3em;
+   width: 100%;
+}
+input[type=search] {
+	background: #555 ;
+	border: solid 1px #ccc;
+   width: 55px;
+   margin-left: 20em;
+}
+input[type=search]:focus {
+	width: 300px;
+	background-color: #ccc;
+	border-color: #333;
+	border: solid 1px #fff;
+}  
+.img1{
+   margin-left: 3em;
+}
+.img2{
+   margin-left: 3em;
+}
+.img3{
+   margin-left: 3em;
+}
+.img4{
+   margin-left: 3em;
+}
+.img5{
+   margin-left: 3em;
+}
+.img6{
+   margin-left: 3em;
+}
+.d-flex{ background:transparent;
+   height: 5em;
+   width: 100%;
+  position: sticky;
+}
+.home-link{
+   margin-top: 0.7em;
+   margin-left: 8em;
+   
+}
+.contact-link{
+   margin-top: 0.7em;
+   margin-left: 8em;
+}
+.about-link{
+  margin-top: 0.7em;
+   margin-left: 8em;
+}
+.dropbtn {
+background-color:transparent;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+margin-left: 8em;
+margin-top: -0.3em;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+background-color: lightgray;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+overflow: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+
+#bgimg{
+background-image: url(images/AllSportsBanner.jpg);
+width: 100%;
+height: 30em;
+
+}
+
+
+.row{
+margin-top: 30em;
+}
+
+.card1{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding: 16px;
+text-align: center;
+background-color: #f1f1f1;
+}
+.card2{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding: 16px;
+text-align: center;
+background-color: #f1f1f1;
+}
+.card3{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding: 16px;
+text-align: center;
+background-color: #f1f1f1;
+}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+background-color: #717171;
+}
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@media only screen and (max-width: 200px) {
+.prev, .next,.text {font-size: 11px}
+}
+
+.container2{
+margin-top: 30em;
+}
+.social-link {
+width: 30px;
+height: 30px;
+border: 1px solid #ddd;
+display: flex;
+align-items: initial;
+justify-content: center;
+color: #666;
+border-radius: 50%;
+transition: all 0.3s;
+font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+background: #ddd;
+text-decoration: none;
+color: #555;
+}
+
+.progress {
+height: 10px;
+}
